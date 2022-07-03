@@ -2,7 +2,7 @@
 {
     public static class Utilities
     {
-        public static CreateSafeInteraction(string question, bool isInt = false)
+        public static string CreateSafeInteraction(string question, bool isInt = false)
         {
             bool isValid = false;
             string? value = null;
@@ -25,6 +25,10 @@
             if (value == null)
             {
                 throw new Exception("Value cannot be null in this place.");
+            }
+            else
+            {
+                return value;
             }
         }
     }
