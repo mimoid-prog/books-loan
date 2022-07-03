@@ -5,9 +5,9 @@ namespace zaliczenie
     {
         public string title;
         public string author;
-        public int pages;
+        public string pages;
 
-        public Magazine(string title, string author, int pages)
+        public Magazine(string title, string author, string pages)
         {
             this.title = title;
             this.author = author;

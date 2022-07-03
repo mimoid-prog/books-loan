@@ -11,7 +11,7 @@ namespace zaliczenie
         {
             string title = Utilities.CreateSafeInteraction("Podaj tytul czasopisma:");
             string author = Utilities.CreateSafeInteraction("Podaj autora czasopisma:");
-            int pages = int.Parse(Utilities.CreateSafeInteraction("Podaj ilosc stron:"));
+            string pages = Utilities.CreateSafeInteraction("Podaj ilosc stron:");
 
             Magazine magazine = new Magazine(title, author, pages);
             magazines.Add(magazine);

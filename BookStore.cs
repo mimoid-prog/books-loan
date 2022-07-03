@@ -11,7 +11,7 @@ namespace zaliczenie
         {
             string title = Utilities.CreateSafeInteraction("Podaj tytul ksiazki:");
             string author = Utilities.CreateSafeInteraction("Podaj autora ksiazki:");
-            int pages = int.Parse(Utilities.CreateSafeInteraction("Podaj ilosc stron:"));
+            string pages = Utilities.CreateSafeInteraction("Podaj ilosc stron:");
 
             Book book = new Book(title, author, pages);
             books.Add(book);
