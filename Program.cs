@@ -1,5 +1,8 @@
 ﻿using UtilityMethods;
 
+//Praca zaliczeniowa wykonana przez Mateusz Szkop (18341) i Marcin Brodowski (18898)
+//Wysłaliśmy obaj na Moodle dla pewności
+
 namespace zaliczenie
 {
     internal class Program
