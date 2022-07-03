@@ -1,7 +1,9 @@
 ﻿using UtilityMethods;
 
 //Praca zaliczeniowa wykonana przez Mateusz Szkop (18341) i Marcin Brodowski (18898)
-//Wysłaliśmy obaj na Moodle dla pewności
+//Wysłaliśmy obaj na Moodle dla pewności.
+//Diagram znajduje się w tym folderze.
+//Proszę przeczytać README.md przed uruchomieniem
 
 namespace zaliczenie
 {
